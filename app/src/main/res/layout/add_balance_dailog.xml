@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="2dp"
+    android:background="#75000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="#75000000"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Balance"
+        android:textColor="@color/colorwhite"
+        android:background="@color/colorblack"
+        android:gravity="center"
+
+        android:padding="10dp"
+        />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/amount"
+            android:inputType="number"
+            android:layout_margin="10dp"
+            android:hint="Amount"
+            android:textColorHint="@color/colorwhite"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/colorwhite"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ADD"
+    android:layout_weight="1"
+    android:layout_margin="10dp"
+    android:id="@+id/addMoney"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:id="@+id/btnCancel"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

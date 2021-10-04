@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/reward"
+        android:orientation="vertical"
+
+
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_keyboard_arrow_left"
+            android:padding="2dp"/>
+        <TextView
+            android:id="@+id/total_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10Zar"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/semibolditalic"
+            android:textSize="20dp"
+            android:layout_gravity="bottom"
+            android:padding="10dp"
+            android:gravity="bottom"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Reward"
+            android:textColor="@android:color/black"
+            android:fontFamily="@font/semibolditalic"
+            android:textSize="15dp"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            />
+    </LinearLayout>
+    <GridView
+        android:id="@+id/winhistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        >
+
+    </GridView>
+
+</LinearLayout>

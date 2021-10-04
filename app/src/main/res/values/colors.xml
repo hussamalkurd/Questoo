@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f28252</color>
+    <color name="colorPrimaryDark">#f28252</color>
+    <color name="colorAccent">#f28252</color>
+   <!-- <color name="ligthOrange">#e69626</color>-->
+    <color name="ligthOrange">#f4b050</color>
+
+    <color name="colorwhite">#fff</color>
+    <color name="colorblack">#000</color>
+</resources>
+
+   <!-- #e69626-->

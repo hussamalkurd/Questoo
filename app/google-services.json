@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "177762922091",
+    "firebase_url": "https://questo-211212.firebaseio.com",
+    "project_id": "questo-211212",
+    "storage_bucket": "questo-211212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177762922091:android:4bc90562ad7e6670",
+        "android_client_info": {
+          "package_name": "com.quest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177762922091-43ag71ivl9c7cjejohbgpupkv97kd98n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quest",
+            "certificate_hash": "5c549df014def776697a6049faaea4c4f0963b83"
+          }
+        },
+        {
+          "client_id": "177762922091-70gs1ngap3sre6g91otojf3h6jgp2a09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPW-uBWpGPjT3W_qnVNySJjANr6fSlFsw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177762922091-70gs1ngap3sre6g91otojf3h6jgp2a09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

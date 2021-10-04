@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shaded_shape"
+
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:id="@+id/sub_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logofinal"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                />
+
+
+            <TextView
+                android:id="@+id/sub_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/colorblack"
+                android:fontFamily="@font/semibolditalic"
+                android:text="CLOSEST BAR NAME"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textAllCaps="true"
+                android:textColor="@color/colorwhite"
+                android:textSize="20dp"
+                android:fontFamily="@font/semibolditalic"
+
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/logofinal"
+
+                    android:layout_gravity="center"
+
+                    />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/sg_name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Name*"
+                android:textColorHint="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/blackblur_background"
+                android:inputType="text"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textColor="@color/colorwhite"
+                 android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:id="@+id/sg_contact"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Contact*"
+                android:textColorHint="@color/colorwhite"
+                android:inputType="number"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/blackblur_background"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp" />
+
+            <EditText
+                android:id="@+id/sg_email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Email*"
+                android:textColorHint="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/blackblur_background"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:fontFamily="@font/semibolditalic"
+                android:textColor="@color/colorwhite"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+
+                >
+                <EditText
+                    android:id="@+id/sg_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Password"
+                    android:textColorHint="@color/colorwhite"
+                    android:fontFamily="@font/semibolditalic"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorwhite"
+                    android:inputType="textPassword"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blackblur_background"
+                    />
+
+                <ImageView
+                    android:id="@+id/hide"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/hidepass"
+                    android:padding="5dp"
+                    android:tint="@color/colorwhite"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/blackblur_background"
+
+                    />
+
+
+                <ImageView
+                    android:id="@+id/show"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/showpass"
+                    android:padding="5dp"
+                    android:tint="@color/colorwhite"
+
+                    android:gravity="center"
+                    android:layout_gravity="center"
+
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/blackblur_background"
+                    android:visibility="gone"
+
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Deatil"
+                android:textColor="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:visibility="gone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <com.braintreepayments.cardform.view.SupportedCardTypesView
+                android:id="@+id/supported_card_types1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:gravity="center"
+                android:paddingTop="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card Detail"
+                android:textColor="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                />
+
+            <com.braintreepayments.cardform.view.CardEditText
+                android:id="@+id/sg_carddetail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:visibility="gone"
+                android:hint="Card No*"
+                android:textColorHint="@color/colorwhite"
+                 android:fontFamily="@font/semibolditalic"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/blackblur_background"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expiry"
+                android:textColor="@color/colorwhite"
+                android:visibility="gone"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                />
+
+            <com.braintreepayments.cardform.view.ExpirationDateEditText
+                android:id="@+id/sg_cardexpiry"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="Expiry*"
+                android:visibility="gone"
+                android:textColorHint="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:background="@drawable/blackblur_background"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CVC"
+                android:textColor="@color/colorwhite"
+                android:fontFamily="@font/semibolditalic"
+                android:textSize="18dp"
+                android:layout_marginLeft="20dp"
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                />
+
+            <com.braintreepayments.cardform.view.CvvEditText
+                android:id="@+id/sg_cvc"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:hint="CVC No.*"
+                android:textColorHint="@color/colorwhite"
+                android:textSize="15dp"
+                android:textColor="@color/colorwhite"
+                android:visibility="gone"
+                android:background="@drawable/blackblur_background"
+                android:fontFamily="@font/semibolditalic"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <Button
+                android:id="@+id/userbtn_signup"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/orange_background"
+                android:fontFamily="@font/semibolditalic"
+                android:backgroundTint="@color/colorwhite"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Register"/>
+
+            <TextView
+                android:id="@+id/already_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:fontFamily="@font/semibolditalic"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Already have Account? Login here."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

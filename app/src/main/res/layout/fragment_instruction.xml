@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/cross"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_close_black"
+
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/bolditalic"
+        android:text="Quiz"
+        android:layout_marginTop="10dp"
+        android:gravity="top|center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/bolditalic"
+        android:text="Instruction"
+        android:layout_marginTop="20dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            >
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:text="* Playing a round in a quiz should take less than 15 minutes."
+        android:layout_marginTop="20dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:text="* Users should be able to play the content they want to learn more about it."
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:text="* Playing a round in a quiz should take less than 15 minutes."
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:text="* In quize there are number of category  user have to slecet one and play "
+        android:layout_marginTop="10dp"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* User have to pay 1 Zar for playing quiz"
+        android:textSize="15dp"
+        android:textColor="@color/colorblack"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:layout_marginTop="10dp"
+ />
+
+        </LinearLayout>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/orange_background"
+        android:text="start"
+        android:textColor="@color/colorwhite"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and conditions are applied*"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:fontFamily="@font/semibolditalic"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center"
+        />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

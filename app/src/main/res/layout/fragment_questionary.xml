@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quest.fragment.QuestionaryFragment"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <WebView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Q2.  ICAO stands for:"
+            android:textColor="@color/colorblack"
+            android:fontFamily="@font/semibolditalic"
+            android:textSize="22dp"/>
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+            <RadioButton
+                android:id="@+id/radio_one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="International Civil Aviation Organization"
+                android:textColor="@color/colorblack"
+                android:textSize="18dp"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:fontFamily="@font/semibolditalic"/>
+            <RadioButton
+                android:id="@+id/radio_two"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="18dp"
+                android:text="Indian Corporation of Agriculture Organization"
+                android:textColor="@color/colorblack"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:fontFamily="@font/semibolditalic" />
+            <RadioButton
+                android:id="@+id/radio_three"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Institute of Company of Accounts Organization"
+                android:textSize="18dp"
+                android:textColor="@color/colorblack"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:fontFamily="@font/semibolditalic" />
+            <RadioButton
+                android:id="@+id/radio_four"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="None of the above"
+                android:textSize="18dp"
+                android:textColor="@color/colorblack"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:fontFamily="@font/semibolditalic" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+</LinearLayout>
